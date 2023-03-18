@@ -4,7 +4,7 @@ FROM golang:1.18-apline as builder
 
 RUN mkdir /app
 
-COPY . /app
+COPY broker-service/ /app
 
 WORKDIR /app
 
